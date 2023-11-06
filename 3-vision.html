@@ -2,16 +2,19 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <!-- Define la codificación de caracteres como UTF-8. -->
     <title>Visión de Pastillero Virtual</title>
+    <!-- Establece el título de la página en la barra de título del navegador. -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
+    <!-- Enlaza la hoja de estilos CSS de Materialize. -->
     <style>
+      /* Estilos para centrar el contenido del pie de página */
       .container.text-center {
-        text-align: center;
+        text-align: center; /* Centra el contenido en el centro. */
       }
-
       .image-container {
         max-width: 800px;
         margin: 0 auto;
@@ -19,41 +22,38 @@
         justify-content: space-between;
         align-items: center;
       }
-
       .footer-left-image {
         width: 400px;
         margin-left: 20px;
       }
-
       body {
         font-family: "Poppins", sans-serif;
-        background-color: rgb(242, 246, 245);
-        color: rgb(8, 8, 8);
+        background-color: rgb(
+          242,
+          246,
+          245
+        ); /* Establece el color de fondo de la página. */
+        color: rgb(8, 8, 8); /* Establece el color del texto. */
         padding: 20px;
       }
-
       .container {
         max-width: 800px;
         margin: 0 auto;
       }
-
       h1 {
         font-size: 40px;
         text-align: center;
       }
-
       p {
         font-size: 18px;
         line-height: 1.6;
       }
-
       .btn-vision {
-        background-color: #74726f;
-        color: #ffffff;
+        background-color: #74726f; /* Color de fondo del botón. */
+        color: #ffffff; /* Color del texto del botón. */
       }
     </style>
   </head>
-
   <body>
     <div class="container">
       <h1>Visión de Pastillero Virtual</h1>
@@ -89,7 +89,9 @@
           src="imagenes/mejorada.png"
           width="250px"
         />
+        <!-- Muestra una imagen a la izquierda del pie de página. -->
         <img src="imagenes/OIP.jpg" alt="logo de salud" width="200px" />
+        <!-- Muestra otra imagen. -->
       </div>
       <div class="container text-center">
         <a
@@ -99,6 +101,7 @@
           <button class="waves-effect waves-light btn btn-vision">
             Volver atrás
           </button>
+          <!-- Botón para volver atrás. -->
         </a>
       </div>
     </footer>
