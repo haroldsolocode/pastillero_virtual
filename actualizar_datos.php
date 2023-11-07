@@ -47,9 +47,10 @@
                         <td><?= $datos["username"] ?></td>
                     </tr>
                 <?php } else {
-                    echo "No se encontraron datos para este usuario.";
+                    echo "esta pagina esta en construcción";
                 }
                 ?>
+                <h2>esta en construcción</h2>
             </tbody>
         </table>
     </div>

@@ -1,7 +1,7 @@
 <?php
 include('conexion.php');
 
-    // Tu código para procesar el formulario va aquí
+    
 
 // Recibir datos del formulario
 

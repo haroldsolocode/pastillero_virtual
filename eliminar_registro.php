@@ -2,13 +2,13 @@
 
 // Verifica si se ha enviado un ID válido en la URL
 if (isset($_GET['id']) && is_numeric($_GET['id'])) {
-    $id_usuario = $_GET['id'];
+    $id_registro = $_GET['id'];
     
     // Conecta a la base de datos (asegúrate de configurar la conexión)
     include('conexion.php');
     
     // Realiza una consulta para eliminar el registro
-    $query = "DELETE FROM usuarios WHERE id_usuario = $id_usuario";
+    $query = "DELETE FROM usuarios WHERE id_registro = $id_registro";
     
     if ($conexion->query($query) === TRUE) {
         // Redirige a la página principal u otra página de tu elección después de la eliminación

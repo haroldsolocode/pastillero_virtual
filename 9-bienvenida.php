@@ -164,9 +164,9 @@ session_start(); // Inicia la sesión (debe estar al principio del archivo)
     <div class="button-container"> <!-- Cambiado a columna -->
     <div class="row">
         <div class="col s12 m6">
-            <a href="actualizar_datos.php" class="btn waves-effect waves-light blue-grey">Actualizar Datos</a>
+            <a href="actualizar_datos.php" class="btn waves-effect waves-light blue-grey" onclick="M.toast({html: 'esta en construcción'})">Actualizar Datos</a>
             <br><br>
-            <a href="configuraciones.php" class="btn waves-effect waves-light grey">Configuraciones</a>
+            <a href= "#"  class="btn waves-effect waves-light grey" onclick="M.toast({html: 'esta en construcción'})">Configuraciones</a>
         </div></div>
         <div class="profile-image">
             <img src="imagenes/paciente2.png" alt="Paciente" />
